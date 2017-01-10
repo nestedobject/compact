@@ -1,0 +1,27 @@
+h1,
+h2 {
+  margin: 0 0 .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+
+  &:hover {
+    color: $white;
+    background: $blue;
+  }
+}

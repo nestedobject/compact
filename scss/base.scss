@@ -1,0 +1,30 @@
+// Body resets
+// Update the foundational and global aspects of the page.
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  font-family: $sans-serif-font;
+  font-size: 16px;
+  line-height: 1.5;
+  color:  $black;
+  min-height: 100%;
+  @media (min-width: 38em) {
+    font-size: 30px;
+  }
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}

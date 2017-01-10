@@ -1,0 +1,21 @@
+// Imports
+@import "variables";
+@import "base";
+@import "type";
+
+// More styles declared here
+
+h1 {
+  margin-top: 25%;
+  text-align: center;
+  opacity: 1;
+  animation: blink 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}

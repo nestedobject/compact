@@ -1,0 +1,35 @@
+{
+  "name": "compact",
+  "version": "1.0.0",
+  "description": "Use gulp to build a small optimized site",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "start": "serve dist",
+    "dev": "serve src",
+    "watch": "gulp watch",
+    "test": "xo"
+  },
+  "author": "Paul Molluzzo <paul@molluzzo.com> (http://paul.molluzzo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-inline-source": "^3.0.0",
+    "gulp-sass": "^2.3.2",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ],
+    "space": true
+  }
+}
